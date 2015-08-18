@@ -25,6 +25,18 @@
             ];
 
           // code goes here...
+          sort($unOrderedArray);
+          
+          echo "<pre>";
+          print_r($unOrderedArray);
+          echo "</pre>";
+          
+          rsort($unOrderedArray);
+          
+          echo "<pre>";
+          print_r($unOrderedArray);
+          echo "</pre>";
+          
           ?>
         </p>
   </body>
